@@ -1,0 +1,124 @@
+
+*{
+    box-sizing: border-box; /* count the border as part of the item */
+    font-family: 'Avenir', sans-serif;
+  }
+  
+  .headerBar {
+    display: flex;
+    -webkit-display: flex;
+    background-color: #568fa0;
+    width:100%;
+    color: white;
+    border-bottom: 1px darkgrey solid;
+  
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  .title {
+    width: 50%;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  
+  
+  .buttonBar:hover {
+    color: #123456;
+  }
+  
+  .barLink {
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+  }
+
+  .buttonBar {
+    width:25%;
+    font-size: 1.2em;
+    padding: 5%;
+    color: white
+  }
+  
+  .bbleft {
+    text-align: left;
+  }
+  
+  .bbright {
+    text-align: right;
+  }
+  
+  
+  .rowLink {
+    display: flex;
+    -webkit-display: flex;
+    width: 100%;
+    text-decoration: none;
+    color:black;
+    border-bottom: 1px #568fa0 solid;
+  }
+  
+  .accountName {
+    padding:5%;
+    width: 50%;
+    text-align: left;
+  }
+  
+  .accountBal {
+    padding:5%;
+    width:50%;
+    text-align: right;
+  }
+
+  .inputWrap {
+      margin:auto;
+      text-align: center;
+      padding-top: 40px;
+  }
+
+  input {
+    margin-bottom: 25px;
+    border:none;
+    border-bottom: 2px #568fa0 solid;
+    width:60%;
+    padding:10px;
+    font-size:1em;
+    outline:none;
+    border-radius: 0;
+  }
+
+  .disabledBalance {
+    margin-left: 20%;
+    margin-bottom: 25px;
+    border:none;
+    border-bottom: 2px #568fa0 solid;
+    width:60%;
+    padding:10px;
+    font-size:1em;
+    outline:none;
+    border-radius: 0;
+    text-align: left;
+  }
+
+  .inputDesc {
+    margin-top: -20px;
+    text-align:right;
+    color:grey;
+    font-size:0.75em;
+    text-transform: capitalize;
+    margin-right: 20%;
+    letter-spacing: 1px;
+  }
+
+  .inputType {
+    margin-top: -10px;
+    text-align:right;
+    color:grey;
+    font-size:0.75em;
+    text-transform: capitalize;
+    margin-right: 20%;
+    letter-spacing: 1px;
+  }
+  
